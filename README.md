@@ -30,22 +30,10 @@ Once you have NVM, you can check the current version using this command:
 nvm --version
 ```
 
-To install the latest LTS version of Node.js through NVM, you need to use the following command:
+To install the latest LTS version of Node.js and NPM through NVM, you need to use the following command:
 
 ```
 nvm install --lts
-```
-
-Now, you can isntall NPM globally using the following command:
-
-```
-npm install -g npm
-```
-
-Before installing Truffle, it's recommended to install some node-gyp dependencies for compiling native add-on modules for Node.js, 
-
-```
-sudo apt install make g++
 ```
 
 Now, you should be able to install Truffle globally as a normal user without experiende permission errors, using the same command presented before:
